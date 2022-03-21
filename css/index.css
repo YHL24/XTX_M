@@ -1,0 +1,176 @@
+body {
+  background-color: #f7f7f8;
+}
+.pannel {
+  background-color: #fff;
+  margin-bottom: 2.66666667vw;
+  border-radius: 1.33333333vw;
+}
+.main {
+  padding: 3.2vw 2.93333333vw 21.33333333vw;
+}
+.main .user {
+  display: flex;
+  align-items: center;
+  padding: 4vw 0 3.73333333vw 2.93333333vw;
+}
+.main .user .location {
+  margin-right: 3.2vw;
+  width: 8vw;
+  height: 8vw;
+  background-image: linear-gradient(90deg, #6fc2aa 5%, #54b196 100%);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 8vw;
+  color: #fff;
+}
+.main .user .txt {
+  flex: 1;
+}
+.main .user .txt h5 span:first-child {
+  margin-right: 8vw;
+  font-size: 4vw;
+  color: #262626;
+}
+.main .user .txt h5 span:last-child {
+  font-weight: normal;
+  font-size: 3.46666667vw;
+  color: #333333;
+}
+.main .user .txt p {
+  margin-top: 2.13333333vw;
+  font-size: 3.2vw;
+  color: #333;
+}
+.main .user .more a {
+  display: block;
+  padding: 5px dotted #3a9cff;
+  width: 11.73333333vw;
+  height: 11.73333333vw;
+  background-color: #2ad1ff;
+  text-align: center;
+  line-height: 11.73333333vw;
+}
+.main .goods {
+  display: flex;
+  padding: 2.93333333vw 0 2.93333333vw 2.93333333vw;
+}
+.main .goods .pic {
+  margin-right: 3.2vw;
+  width: 22.66666667vw;
+  height: 22.66666667vw;
+}
+.main .goods .txt {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main .goods .txt h4 {
+  font-weight: normal;
+  font-size: 3.46666667vw;
+  color: #262626;
+}
+.main .goods .txt p.shuxing {
+  padding-left: 1.33333333vw;
+  width: 29.33333333vw;
+  height: 4.26666667vw;
+  background-color: #f7f7f8;
+  font-size: 2.93333333vw;
+  color: #888;
+}
+.main .goods .txt p.shuxing span:first-child {
+  margin-right: 4vw;
+}
+.main .goods .txt p:last-child {
+  font-size: 4.26666667vw;
+  color: #cf4444;
+}
+.main .goods .txt p:last-child span:last-child {
+  margin-left: 3.73333333vw;
+  font-size: 3.2vw;
+  color: #999999;
+  text-decoration: line-through;
+}
+.main .goods .count a {
+  display: block;
+  width: 11.73333333vw;
+  height: 11.73333333vw;
+  font-size: 4vw;
+  color: #262626;
+  line-height: 11.73333333vw;
+  text-align: center;
+}
+.main .goods .count a .iconfont {
+  font-size: 4vw;
+  vertical-align: middle;
+}
+.main .rest {
+  padding: 4vw;
+}
+.main .rest div {
+  display: flex;
+  margin-bottom: 6.66666667vw;
+  font-size: 3.46666667vw;
+  color: #262626;
+}
+.main .rest div h5 {
+  font-weight: normal;
+}
+.main .rest div:nth-child(2n-1) {
+  justify-content: space-between;
+}
+.main .rest div:last-child {
+  margin-bottom: 0;
+}
+.main .rest div:last-child p .iconfont {
+  font-size: 2.93333333vw;
+  color: #808080;
+}
+.main .rest div:nth-child(2) p {
+  font-size: 3.2vw;
+  color: #989898;
+  margin-left: 5.06666667vw;
+}
+.main .money div {
+  justify-content: space-between;
+}
+.main .money div:nth-child(2) p {
+  font-size: 3.46666667vw;
+  color: #262626;
+  margin-left: 0;
+}
+.main .money div:last-child p {
+  color: #cf4444;
+}
+.main .pay {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2.66666667vw;
+  width: 100%;
+  height: 21.06666667vw;
+  background-color: #fff;
+}
+.main .pay p {
+  font-size: 2.93333333vw;
+  color: #1e1e1e;
+}
+.main .pay p span {
+  font-size: 5.33333333vw;
+  color: #cf4444;
+}
+.main .pay a {
+  display: block;
+  width: 24.26666667vw;
+  height: 9.33333333vw;
+  background-image: linear-gradient(90deg, #6fc2aa 5%, #54b196 100%);
+  font-size: 3.46666667vw;
+  color: #fff;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 9.33333333vw;
+}
